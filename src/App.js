@@ -5,6 +5,8 @@ import LandingPage from './pages/LandingPage';
 import CardGrid from './pages/CardGrid';
 import SellerDashboard from './components/SellerDashboard';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
