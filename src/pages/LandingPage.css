@@ -1,0 +1,69 @@
+/* Global Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .landing-page {
+    margin-top: 56px; /* Offset to prevent overlap with sticky navbar */
+  }
+  
+  .landing-container {
+    height: calc(100vh - 56px); /* Full height minus navbar height */
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .left-half {
+    flex: 1;
+    background-color: #f8f8f8;
+  }
+  
+  .furniture-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .right-half {
+    flex: 1;
+    background-color: #fff; /* White background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text-content {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .reserve-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .reserve-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #0056b3;
+  }
+  

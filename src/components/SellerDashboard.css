@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .badge {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .table {
+    background-color: #fff;
+  }
+  
